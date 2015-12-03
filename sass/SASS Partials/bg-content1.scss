@@ -1,0 +1,23 @@
+.bg-content1 {
+    background-color: $background-color;
+    color: $dark-grey;
+}
+
+section.content1 {
+    padding: 2rem 0;
+}
+
+.content1 {
+    h3 {
+        font-size: 1.999rem;
+        padding: 0.2rem 2rem 2rem;
+        i {
+            vertical-align: middle;
+            padding-right: 2rem;
+        }
+    }
+    p {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem 2rem;
+    }
+}

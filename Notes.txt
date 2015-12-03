@@ -1,0 +1,15 @@
+@mixing mama-bear{
+	@media(min-width:35rem) and (max-width:60rem){
+		@content;	
+	}
+}
+
+-----------------------------------------------------------------------
+
+
+rel{
+	@include mama-bear{
+		display:inline;
+	}
+	
+}

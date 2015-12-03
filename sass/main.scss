@@ -1,0 +1,51 @@
+// main SASS file
+@import "SASS Partials/variables";
+@import "SASS Partials/bg-header";
+@import "SASS Partials/header";
+@import "SASS Partials/bg-content1";
+@import "SASS Partials/bg-content2";
+@import "SASS Partials/bg-focal";
+@import "SASS Partials/bg-footer";
+@import "SASS Partials/queries";
+@import "SASS Partials/mixins";
+
+
+*{
+    padding:0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:after,
+*:before{
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+html{
+    font-size: 16px;
+    font-family: $font-default; // default for whole page
+    line-height: 1.6;
+}
+h1, h2, h3, h4{
+    font-family: $font-headings; // serif for the headings
+}
+ul{
+    list-style: none;
+}
+
+.col-2{
+    width:50%;
+    float:left;
+    padding-bottom: 2rem;
+    border-left:1px solid #3a5E63;
+    margin-bottom: 2rem;
+}
+/***********************************************
+                SPECIAL
+***********************************************/
+
+.clearfix:after{
+    display:table;
+    clear: both;
+    content: "";
+}

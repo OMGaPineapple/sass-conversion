@@ -1,0 +1,33 @@
+.bg-footer {
+    background-color: $background-color;
+    color: $light-grey;
+}
+
+footer {
+    h4 {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem;
+        color: $dark-brown;
+    }
+    p {
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        color: $dark-grey;
+    }
+    .fa-circle {
+        color: $dark-grey;
+    }
+    .col-2:first-child {
+        border-left: 0;
+    }
+    p:last-child {
+        h4[lang=de] {
+            display: block;
+        }
+    }
+    h4[lang=en],
+    h4[lang=ar],
+    h4[lang=ru] {
+        display: none;
+    }
+}

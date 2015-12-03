@@ -1,0 +1,30 @@
+.bg-content2{
+    background-color: $light-blue;
+    color: $dark-blue;
+}    
+
+section.content2 {
+    padding: 2rem 0;
+    h4{
+        font-size: 1.999rem;
+    }
+}
+
+.content2 {
+    h3 {
+        font-size: 1.999rem;
+        padding: 1rem 2rem 0.5rem;
+        h4 {
+            font-size: 1.999rem;
+            padding: 1rem 2rem 0rem;
+        }
+        p {
+            font-size: 1.414rem;
+            padding: 0.5rem 2rem 1rem;
+        }
+        li {
+            padding: 0.5rem 2rem;
+            font-size: 1.414rem;
+        }
+    }
+}
